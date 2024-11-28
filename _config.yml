@@ -1,10 +1,10 @@
 # Site settings
 title: Mark Leigh Educator Blog
-SEOTitle: Mark Leigh Blog | Expert Trade | Trading Educator | Forex | Commodities | US Stocks | CFD Trading | 
+SEOTitle: "Mark Leigh Blog | Trading Educator | Expert Financial Insights"
 header-img: img/home-bg.jpg
 email: markleigh.edu@gmail.com
 description: "Mark Leigh's Personal Blog | Financial Market Trading Education"
-keyword: "Mark Leigh, Education, Forex Trading, Currencies, Crptocurrencies, Blog, Commodities Trading, US Stock Trading"
+keyword: "Mark Leigh, Education, Forex Trading, Currencies, Cryptocurrencies, Blog, Commodities Trading, US Stock Trading"
 url: "https://markleigh8.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -17,8 +17,8 @@ github_username: MarkLeigh8
 instagram_username: markleigh.educator
 twitter_username: MarkLeigh_edu
 youtube_username: @MarkLeigh-Educator
-#facebook_username:  markleigh6000
-#linkedin_username:  mark-leigh-51132935
+facebook_username:  markleigh6000
+linkedin_username:  mark-leigh-51132935
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -36,7 +36,7 @@ exclude:
   ]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+#timezone: US
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: markleigh-educator
 
 # Netease settings
 netease_comment: false
@@ -69,13 +69,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: "G-XXXXXXXXXX" # Format: UA-xxxxxx-xx
+ga_domain: markleigh8.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Trading Education <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/MarkLeigh8.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
