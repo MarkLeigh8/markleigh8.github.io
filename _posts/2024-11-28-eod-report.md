@@ -8,6 +8,12 @@ tags:
   - EOD Report
   - Trading
   - Markets
+  - Gold
+  - Brent Oil
+  - US Dollar Index
+  - Bitcoin
+  - SP500
+  - Education
 published: true
 ---
 
