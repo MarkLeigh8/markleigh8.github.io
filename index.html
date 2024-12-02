@@ -3,12 +3,11 @@ layout: page
 description: "「Mark Leigh Trading Education」"
 ---
 
-
 <div class="post-preview">
   <!-- First Block - Video Embeds -->
   <div class="row mb-4">
-    <!-- Left Video -->
-    <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+    <!-- First Video -->
+    <div class="col-12 mb-3">
       <div class="embed-responsive embed-responsive-16by9">
         <iframe
           class="embed-responsive-item"
@@ -21,8 +20,8 @@ description: "「Mark Leigh Trading Education」"
       </div>
       <p class="text-center mt-2">Learn the essentials of trading strategies</p>
     </div>
-    <!-- Right Video -->
-    <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+    <!-- Second Video -->
+    <div class="col-12 mb-3">
       <div class="embed-responsive embed-responsive-16by9">
         <iframe
           class="embed-responsive-item"
@@ -36,40 +35,42 @@ description: "「Mark Leigh Trading Education」"
       <p class="text-center mt-2">Dive deeper into advanced trading insights</p>
     </div>
   </div>
+</div>
 
-  <!-- Second Block - Clickable Images -->
-  <div class="row mb-4">
-    <!-- Image 1 -->
-    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
-      <a href="{{ '/_post/eod1/' | prepend: site.baseurl }}">
-        <img
-          src="{{ '/img/eod1-mark.jpg' | prepend: site.baseurl }}"
-          class="img-fluid w-100"
-          alt="EOD Report 1"
-          style="border-radius: 5px;">
-      </a>
-    </div>
-    <!-- Image 2 -->
-    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
-      <a href="{{ '/_post/eod2/' | prepend: site.baseurl }}">
-        <img
-          src="{{ '/img/eod2-mark.jpg' | prepend: site.baseurl }}"
-          class="img-fluid w-100"
-          alt="EOD Report 2"
-          style="border-radius: 5px;">
-      </a>
-    </div>
-    <!-- Image 3 -->
-    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
-      <a href="{{ '/_post/eodw/' | prepend: site.baseurl }}">
-        <img
-          src="{{ '/img/eodw-mark.jpg' | prepend: site.baseurl }}"
-          class="img-fluid w-100"
-          alt="Weekly EOD Report"
-          style="border-radius: 5px;">
-      </a>
-    </div>
+<!-- Second Block - Clickable Images -->
+<div class="post-preview">
+<div class="row mb-4">
+  <!-- Image 1 -->
+  <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+    <a href="{{ '/_post/eod1/' | prepend: site.baseurl }}">
+      <img
+        src="{{ '/img/eod1-mark.jpg' | prepend: site.baseurl }}"
+        class="img-fluid w-100"
+        alt="EOD Report 1"
+        style="border-radius: 5px; max-width: 100%; height: auto;">
+    </a>
   </div>
+  <!-- Image 2 -->
+  <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+    <a href="{{ '/_post/eod2/' | prepend: site.baseurl }}">
+      <img
+        src="{{ '/img/eod2-mark.jpg' | prepend: site.baseurl }}"
+        class="img-fluid w-100"
+        alt="EOD Report 2"
+        style="border-radius: 5px; max-width: 100%; height: auto;">
+    </a>
+  </div>
+  <!-- Image 3 -->
+  <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+    <a href="{{ '/_post/eodw/' | prepend: site.baseurl }}">
+      <img
+        src="{{ '/img/eodw-mark.jpg' | prepend: site.baseurl }}"
+        class="img-fluid w-100"
+        alt="Weekly EOD Report"
+        style="border-radius: 5px; max-width: 100%; height: auto;">
+    </a>
+  </div>
+</div>
 </div>
 
 {% for post in paginator.posts %}
