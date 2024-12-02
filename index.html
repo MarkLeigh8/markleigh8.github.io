@@ -3,6 +3,64 @@ layout: page
 description: "「Mark Leigh Trading Education」"
 ---
 
+<!-- Add Blocks Above Posts -->
+<div class="container">
+    <!-- First Block -->
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <!-- Left Block -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/videoseries?list=PLYCU907hAzzC3cVLTZmvQWB4Ak6Q0D6IP"
+                    title="YouTube playlist 1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="text-center mt-2">Learn the essentials of trading strategies</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <!-- Right Block -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/videoseries?list=PLYCU907hAzzDNZXxZgCMnheYFX34xsGL3"
+                    title="YouTube playlist 2" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="text-center mt-2">Dive deeper into advanced trading insights</p>
+        </div>
+    </div>
+
+    <!-- Second Block -->
+    <div class="row mt-4">
+        <div class="col-md-4 col-sm-12 text-center">
+            <!-- Left Image -->
+            <a href="{{ '/_post/eod1/' | prepend: site.baseurl }}">
+                <img src="{{ '/img/eod1-mark.jpg' | prepend: site.baseurl }}" class="img-fluid" alt="EOD Report 1">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+            <!-- Middle Image -->
+            <a href="{{ '/_post/eod2/' | prepend: site.baseurl }}">
+                <img src="{{ '/img/eod2-mark.jpg' | prepend: site.baseurl }}" class="img-fluid" alt="EOD Report 2">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+            <!-- Right Image -->
+            <a href="{{ '/_post/eodw/' | prepend: site.baseurl }}">
+                <img src="{{ '/img/eodw-mark.jpg' | prepend: site.baseurl }}" class="img-fluid" alt="Weekly EOD Report">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Posts Section -->
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
