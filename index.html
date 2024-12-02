@@ -39,38 +39,38 @@ description: "「Mark Leigh Trading Education」"
 
 <!-- Second Block - Clickable Images -->
 <div class="post-preview">
-<div class="row mb-4">
-  <!-- Image 1 -->
-  <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
-    <a href="{{ '/_post/eod1/' | prepend: site.baseurl }}">
-      <img
-        src="{{ '/img/eod1-mark.jpg' | prepend: site.baseurl }}"
-        class="img-fluid w-100"
-        alt="EOD Report 1"
-        style="border-radius: 5px; max-width: 100%; height: auto;">
-    </a>
+  <div class="row mb-4">
+    <!-- Image 1 -->
+    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+      <a href="{{ '/assets/eod1/latest.pdf' | prepend: site.baseurl }}" target="_blank">
+        <img
+          src="{{ '/img/eod1-mark.jpg' | prepend: site.baseurl }}"
+          class="img-fluid w-100"
+          alt="EOD Report 1"
+          style="border-radius: 5px; max-width: 100%; height: auto;">
+      </a>
+    </div>
+    <!-- Image 2 -->
+    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+      <a href="{{ '/assets/eod2/latest.pdf' | prepend: site.baseurl }}" target="_blank">
+        <img
+          src="{{ '/img/eod2-mark.jpg' | prepend: site.baseurl }}"
+          class="img-fluid w-100"
+          alt="EOD Report 2"
+          style="border-radius: 5px; max-width: 100%; height: auto;">
+      </a>
+    </div>
+    <!-- Image 3 -->
+    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+      <a href="{{ '/assets/eodw/latest.pdf' | prepend: site.baseurl }}" target="_blank">
+        <img
+          src="{{ '/img/eodw-mark.jpg' | prepend: site.baseurl }}"
+          class="img-fluid w-100"
+          alt="Weekly EOD Report"
+          style="border-radius: 5px; max-width: 100%; height: auto;">
+      </a>
+    </div>
   </div>
-  <!-- Image 2 -->
-  <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
-    <a href="{{ '/_post/eod2/' | prepend: site.baseurl }}">
-      <img
-        src="{{ '/img/eod2-mark.jpg' | prepend: site.baseurl }}"
-        class="img-fluid w-100"
-        alt="EOD Report 2"
-        style="border-radius: 5px; max-width: 100%; height: auto;">
-    </a>
-  </div>
-  <!-- Image 3 -->
-  <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
-    <a href="{{ '/_post/eodw/' | prepend: site.baseurl }}">
-      <img
-        src="{{ '/img/eodw-mark.jpg' | prepend: site.baseurl }}"
-        class="img-fluid w-100"
-        alt="Weekly EOD Report"
-        style="border-radius: 5px; max-width: 100%; height: auto;">
-    </a>
-  </div>
-</div>
 </div>
 
 {% for post in paginator.posts %}
