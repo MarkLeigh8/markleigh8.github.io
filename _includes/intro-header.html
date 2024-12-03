@@ -8,6 +8,10 @@
     header.intro-header{
         position: relative;
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+        background-size: contain; /* Ensures the image maintains its aspect ratio */
+        background-position: center; /* Keeps the image centered */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        height: 50vh; /* Set a responsive height based on the viewport height */
         background: {{ page.header-bg-css }};
     }
 
