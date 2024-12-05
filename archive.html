@@ -9,9 +9,9 @@ permalink: /archive/
 ---
 
 <div class="archive-section">
-  <h1>Daily Report 1</h1>
+  <h1>Daily Commentary</h1>
   <ul>
-    {% assign report1_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/1'" %}
+    {% assign report1_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/daily1'" %}
     {% assign sorted_report1 = report1_files | sort: 'modified_time' %}
     {% for file in sorted_report1 %}
       <li>
@@ -24,9 +24,9 @@ permalink: /archive/
 </div>
 
 <div class="archive-section">
-  <h1>Daily Report 2</h1>
+  <h1>Daily Report</h1>
   <ul>
-    {% assign report2_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/2'" %}
+    {% assign report2_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/daily2'" %}
     {% assign sorted_report2 = report2_files | sort: 'modified_time' %}
     {% for file in sorted_report2 %}
       <li>
@@ -39,9 +39,9 @@ permalink: /archive/
 </div>
 
 <div class="archive-section">
-  <h1>Weeky Report</h1>
+  <h1>Weeky Review</h1>
   <ul>
-    {% assign report3_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/3'" %}
+    {% assign report3_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/weekly'" %}
     {% assign sorted_report3 = report3_files | sort: 'modified_time' %}
     {% for file in sorted_report3 %}
       <li>
