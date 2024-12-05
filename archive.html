@@ -7,3 +7,48 @@ header-mask: 0.3
 multilingual: true
 permalink: /archive/
 ---
+
+<div class="archive-section">
+  <h1>Daily Report 1</h1>
+  <ul>
+    {% assign report1_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/1'" %}
+    {% assign sorted_report1 = report1_files | sort: 'modified_time' %}
+    {% for file in sorted_report1 %}
+      <li>
+        <a href="{{ file.path | prepend: site.baseurl }}" target="_blank">
+          {{ file.name }} - Last Updated: {{ file.modified_time | date: "%B %d, %Y" }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="archive-section">
+  <h1>Daily Report 2</h1>
+  <ul>
+    {% assign report2_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/2'" %}
+    {% assign sorted_report2 = report2_files | sort: 'modified_time' %}
+    {% for file in sorted_report2 %}
+      <li>
+        <a href="{{ file.path | prepend: site.baseurl }}" target="_blank">
+          {{ file.name }} - Last Updated: {{ file.modified_time | date: "%B %d, %Y" }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="archive-section">
+  <h1>Weeky Report</h1>
+  <ul>
+    {% assign report3_files = site.static_files | where_exp: "file", "file.path contains 'mark-report/3'" %}
+    {% assign sorted_report3 = report3_files | sort: 'modified_time' %}
+    {% for file in sorted_report3 %}
+      <li>
+        <a href="{{ file.path | prepend: site.baseurl }}" target="_blank">
+          {{ file.name }} - Last Updated: {{ file.modified_time | date: "%B %d, %Y" }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
