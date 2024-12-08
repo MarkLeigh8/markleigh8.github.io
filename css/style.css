@@ -1,138 +1,19 @@
-
-/* Sidebar Container Default Styles */
-.sidebar-container {
-    color: #bfbfbf;
-    font-size: 14px;
-}
-
-.sidebar-container h5 {
-    color: #a3a3a3;
-    padding-bottom: 1em;
-}
-
-.sidebar-container h5 a {
-    color: #a3a3a3 !important;
-    text-decoration: none;
-}
-
-.sidebar-container a {
-    color: #bfbfbf !important;
-}
-
-.sidebar-container a:hover,
-.sidebar-container a:active {
-    color: #0085a1 !important;
-}
-
-.sidebar-container .tags a {
-    border-color: #bfbfbf;
-}
-
-.sidebar-container .tags a:hover,
-.sidebar-container .tags a:active {
-    border-color: #0085a1;
-}
-
-.sidebar-container .short-about img {
-    width: 80%;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.sidebar-container .short-about p {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.sidebar-container .short-about .list-inline > li {
-    padding-left: 0;
-}
-
-/* Side Catalog Styles */
-.side-catalog {
-    display: block;
-    overflow: auto;
-    height: 100%;
-    padding-bottom: 40px;
-    width: 195px;
-}
-
-.side-catalog.fixed {
-    position: fixed;
-    top: -21px;
-}
-
-.side-catalog.fold .catalog-toggle::before {
-    content: "+";
-}
-
-.side-catalog.fold .catalog-body {
-    display: none;
-}
-
-.side-catalog .catalog-toggle::before {
-    content: "−";
-    position: relative;
-    margin-right: 5px;
-    bottom: 1px;
-}
-
-.side-catalog .catalog-body {
-    position: relative;
-    list-style: none;
-    height: auto;
-    overflow: hidden;
-    padding-left: 0;
-    padding-right: 5px;
-    text-indent: 0;
-}
-
-.side-catalog .catalog-body li {
-    position: relative;
-    list-style: none;
-}
-
-.side-catalog .catalog-body li a {
-    padding-left: 10px;
-    max-width: 180px;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    line-height: 30px;
-    overflow: hidden;
-    text-decoration: none;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-/* Responsive Fixes */
-
-/* Adjust for smaller screens (below 1200px) */
 @media (max-width: 1200px) {
     .side-catalog {
-        display: block; /* Enable visibility */
-        width: 100%; /* Make it full width */
+        display: block;
+        width: 100%; /* Adjust to fit smaller screens */
         position: relative; /* Avoid fixed positioning */
-        height: auto; /* Allow flexible height */
-        padding: 10px; /* Add spacing */
+        height: auto; /* Let the content dictate the height */
+        padding: 10px; /* Add some padding for spacing */
     }
 }
-
-/* Further adjustments for screens below 768px */
 @media (max-width: 768px) {
     .sidebar-container {
-        margin-bottom: 20px; /* Add space below the sidebar */
-        width: 100%; /* Full width for smaller screens */
-        height: auto; /* Let content dictate the height */
-    }
-
-    .side-catalog {
-        padding: 10px; /* Add spacing for better readability */
+        margin-bottom: 20px; /* Create spacing between the sidebar and footer */
+        width: 100%; /* Make it full width on smaller screens */
+        height: auto; /* Ensure it adjusts to content */
     }
 }
-
-/* Footer adjustments */
 .footer {
     clear: both;
     position: relative;
