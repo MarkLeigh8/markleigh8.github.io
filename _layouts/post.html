@@ -40,14 +40,13 @@ layout: default
                     {% endif %}
                 </ul>
                 <hr style="visibility: hidden;">
-
-                {% if site.disqus_username %}
-                <!-- Disqus Comment Section Start -->
+                <!-- Disqus Comment Section Start (Muted) -->
+                <!--
                 <div class="comment">
                     <div id="disqus_thread"></div>
                 </div>
-                <!-- Disqus Comment Section End -->
-                {% endif %}
+                -->
+                <!-- Disqus Comment Section End (Muted) -->
             </div>
 
             <!-- Sidebar Container -->
@@ -62,21 +61,21 @@ layout: default
     </div>
 </article>
 
-{% if site.disqus_username %}
-<!-- Disqus Embed Script -->
+<!-- Disqus Embed Script (Muted) -->
+<!--
 <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
     var disqus_url = "{{site.url}}{{page.url}}";
 
-    (function() { // DON'T EDIT BELOW THIS LINE
+    (function() { 
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
 {% endif %}
 
 {% if site.anchorjs %}
