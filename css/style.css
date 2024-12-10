@@ -46,3 +46,10 @@
     margin: 5px 0 0;
   }
 </style>
+
+
+@media (max-width: 768px) {
+  .sidebar-container {
+    display: none;
+  }
+}
