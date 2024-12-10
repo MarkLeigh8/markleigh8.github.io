@@ -40,13 +40,14 @@ layout: default
                     {% endif %}
                 </ul>
                 <hr style="visibility: hidden;">
-                <!-- Disqus Comment Section Start (Muted) -->
-                <!--
+                
+                {% unless site.disable_disqus %}
+                <!-- Disqus Comment Section Start -->
                 <div class="comment">
                     <div id="disqus_thread"></div>
                 </div>
-                -->
-                <!-- Disqus Comment Section End (Muted) -->
+                <!-- Disqus Comment Section End -->
+                {% endunless %}
             </div>
 
             <!-- Sidebar Container -->
@@ -61,22 +62,22 @@ layout: default
     </div>
 </article>
 
-<!-- Disqus Embed Script (Muted) -->
-<!--
+{% unless site.disable_disqus %}
+<!-- Disqus Embed Script -->
 <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
     var disqus_url = "{{site.url}}{{page.url}}";
 
-    (function() { 
+    (function() { // DON'T EDIT BELOW THIS LINE
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
--->
-{% endif %}
+{% endunless %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
