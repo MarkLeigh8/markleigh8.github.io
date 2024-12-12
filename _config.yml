@@ -4,6 +4,17 @@ languages:
   - zh-cn
 default_lang: en
 
+en:
+  url: "https://markleigh8.github.io"
+  baseurl: "/en"
+es:
+  url: "https://markleigh8.github.io"
+  baseurl: "/es"
+zh-cn:
+  url: "https://markleigh8.github.io"
+  baseurl: "/cn"
+
+
 # Site settings
 title: Mark Leigh Educator Blog
 SEOTitle: "Mark Leigh Blog | Trading Educator | Expert Financial Insights"
