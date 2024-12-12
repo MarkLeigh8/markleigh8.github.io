@@ -5,7 +5,7 @@ description: "Mark Leigh Trading Education"
 header-img: "img/home-bg.jpg"
 header-mask: 0.3
 multilingual: true
-permalink: /about/
+permalink: /en/about/
 ---
 <html lang="en">
 <html lang="es">
