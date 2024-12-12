@@ -1,3 +1,9 @@
+languages:
+  - en
+  - es
+  - cn
+default_lang: en
+
 # Site settings
 title: Mark Leigh Educator Blog
 SEOTitle: "Mark Leigh Blog | Trading Educator | Expert Financial Insights"
