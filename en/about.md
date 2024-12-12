@@ -5,41 +5,26 @@ description: "Mark Leigh Trading Education"
 header-img: "img/home-bg.jpg"
 header-mask: 0.3
 multilingual: true
+lang: en
 permalink: /en/about/
 ---
-<html lang="en">
-<html lang="es">
-<html lang="zh-cn">
-<div>
-    <h1>👋 Hi, I’m Mark Leigh</h1>
-</div>
 
-<div style="margin-top: 1em;">
-    👀 <strong>Professional Trader & Educator</strong><br>
-    I’m a professional trader and globally recognized educator in the financial trading industry.
-</div>
+# 👋 Hi, I’m Mark Leigh
 
-<div style="margin-top: 1em;">
-    🌱 <strong>Market Participant Since 2003</strong><br>
-    I’ve been an active market participant specializing in commodities, forex, and more recently cryptocurrencies.
-</div>
+👀 **Professional Trader & Educator**  
+I’m a professional trader and globally recognized educator in the financial trading industry.
 
-<div style="margin-top: 1em;">
-    💞 <strong>Passion for Education</strong><br>
-    I’ve developed and instructed university-level courses for aspiring traders and financial professionals.
-</div>
+🌱 **Market Participant Since 2003**  
+I’ve been an active market participant specializing in commodities, forex, and more recently cryptocurrencies.
 
-<div style="margin-top: 1em;">
-    📫 <strong>Global Market Analyst</strong><br>
-    I’ve provided market commentary and analysis to global CFD brokers across Europe, Asia, South Africa, North America, and the Gulf Region.
-</div>
+💞 **Passion for Education**  
+I’ve developed and instructed university-level courses for aspiring traders and financial professionals.
 
-<div style="margin-top: 1em;">
-    ⚡ <strong>Diverse Portfolio</strong><br>
-    My portfolio spans commodities, forex, and cryptocurrencies with a focus on specialization and strategy.
-</div>
+📫 **Global Market Analyst**  
+I’ve provided market commentary and analysis to global CFD brokers across Europe, Asia, South Africa, North America, and the Gulf Region.
 
-<div style="margin-top: 1em;">
-    😄 <strong>Let’s Connect!</strong><br>
-    Feel free to reach out for trading insights or professional collaborations.
-</div>
+⚡ **Diverse Portfolio**  
+My portfolio spans commodities, forex, and cryptocurrencies with a focus on specialization and strategy.
+
+😄 **Let’s Connect!**  
+Feel free to reach out for trading insights or professional collaborations.
